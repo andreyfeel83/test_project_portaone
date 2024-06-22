@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.root {
+	height: 100dvh;
+	background-color: #9bc3b7;
+	font-size: 24px;
+	padding: 40px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	margin-top: 10px;
+}
+
+input {
+	display: none;
+}
+
+label {
+	display: inline-block;
+	background: transparent;
+	padding: 80px 44px;
+	margin: 10px 0;
+	border: 2px dashed black;
+	border-radius: 12px;
+	cursor: pointer;
+	font-size: 44px;
+}
+
+.drop {
+	padding: 120px;
+}
+
+label:active {
+	transform: scale(0.9);
+	transition: 300ms;
+}
